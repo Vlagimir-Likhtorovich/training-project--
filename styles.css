@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 1500px;
+    width: 1920px;
     font-family: 'Lato', Arial, sans-serif;
 
 
@@ -12,26 +12,102 @@ body {
 
 .menu-header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
     background: #FFFFFF;
+    margin-left: 160px;
 }
+
+.menu-header-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
+    gap: 115px;
+    margin-top: 40px;
+}
+
+.menu-header-text {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #475658;
+
+}
+
+
+.menu-header-phone {
+    display: flex;
+}
+
+
+.menu-header-text-phone {
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #121761;
+    border-radius: 10px;
+    width: 271px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #475658;
+}
+
+
 
 .top-content {
     display: flex;
-    max-width: 1500px;
-    height: 536px;
-    left: 0px;
-    top: 136px;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1920px;
+    height: 500px;
+    margin-right: 150px;
     background: #D44B4B;
 }
 
 .top-content-text {
     display: flex;
     flex-direction: column;
+
 }
 
+.top-content-text-left {
+    margin-top: 60px;
+}
+
+.documents {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.shop-documents {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.doc-info {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.want-to-know {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px #A1303C;
+    border-radius: 10px;
+    height: 65px;
+    width: 380px;
+    font-size: 17px;
+    margin-top: 30px;
+}
 
 
 
@@ -41,8 +117,8 @@ body {
 .flat {
     display: flex;
     flex-direction: row;
-    gap: 70px;
-    align-items: center;
+    gap: 80px;
+    margin-top: 75px;
     justify-content: center;
 }
 
@@ -65,6 +141,32 @@ body {
     line-height: 60px;
     text-align: center;
     color: #03073C;
+    margin-top: 80px;
+}
+
+
+
+.center-content {
+    border: solid 1px #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 1px 3px 20px rgba(240, 240, 240, 0.8);
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 1500px;
+    height: 710px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.center-content-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 35px;
+
 }
 
 
@@ -73,9 +175,64 @@ body {
     width: 280px;
 }
 
+.time-test {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #475658;
+}
 
 
 
+
+.flat-sale {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #03073C;
+}
+
+.send {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #D44B4B;
+    box-shadow: 2px 2px 5px #F0F0F0;
+    border-radius: 10px;
+    width: 460px;
+    height: 72px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+.flat-info {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #475658;
+
+}
+
+.line {
+    position: relative;
+    transform: rotate(-7.6deg);
+    left: 3%;
+    top: 14%;
+
+}
 
 
 
@@ -109,7 +266,7 @@ body {
 
 
 .content-footer {
-    background-color: #03073C;
+    background: #475658;
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -119,6 +276,7 @@ body {
 .content-footer-center {
     color: #FFFFFF;
 }
-.content-footer-right{
+
+.content-footer-right {
     color: #FFFFFF;
 }
