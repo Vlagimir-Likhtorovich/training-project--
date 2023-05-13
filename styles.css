@@ -8,6 +8,7 @@ body {
     font-family: 'Lato', Arial, sans-serif;
 }
 
+
 .menu-header {
     display: flex;
     margin-top: 30px;
@@ -301,4 +302,86 @@ body {
 .clock-text {
     position: relative;
     left: 27%;
+}
+
+.part1 {
+
+    height: 1170px;
+    background: #FAFEFF;
+}
+
+.litle-test {
+    text-align: center;
+}
+
+.vopros-text {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+
+.first-test {
+    box-sizing: border-box;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 1px 3px 20px rgba(240, 240, 240, 0.8);
+    border-radius: 20px;
+}
+
+.line-test {
+
+    border: 1px solid #F2F2F2;
+}
+
+.docs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.docs-text {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #121761;
+    text-align: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.question2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 31px 21px 70px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #A8D0FB;
+    border-radius: 10px;
+
+}
+
+.input {
+    
+    font-family: 'Lato';
+   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
 }
