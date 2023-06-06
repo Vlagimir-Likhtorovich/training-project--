@@ -459,6 +459,18 @@ body {
 
 }
 
+.question2-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 113px 21px 115px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #A8D0FB;
+    border-radius: 10px;
+    width: 50%;
+
+}
 
 
 .input {
@@ -468,6 +480,9 @@ body {
     line-height: 27px;
     color: #333333;
     white-space: nowrap;
+    position: relative;
+    right: 10%;
+
 }
 
 .click {
@@ -486,19 +501,38 @@ body {
 }
 
 .click2 {
-    padding: 16px 101px 24px;
+    padding: 16px 90px 24px;
     background: #D44B4B;
     box-shadow: 2px 2px 5px #F0F0F0;
     border-radius: 10px;
     color: #F2F2F2;
     position: relative;
-    left: 69%;
-    top: 24%;
+    left: 65%;
+    top: 25%;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.02em;
 
 }
+
+.click-back {
+    position: relative;
+    top: 26%;
+    left: 60%;
+    background: white;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Lato';
+    text-align: center;
+    color: #475658;
+}
+
+.strelka {
+    left: 55%;
+    position: relative;
+    top: 32%;
+} 
 
 .test-line {
     border: 3px solid #E0E0E0;
@@ -524,4 +558,50 @@ body {
     position: relative;
     top: 11%;
 
+}
+
+
+
+
+
+
+
+
+
+.styled_checkbox{
+   
+    position: relative;
+    cursor: pointer;
+    right: 12%;
+    bottom: 27px;
+}
+.styled_checkbox input{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top:0;
+}
+
+.styled_checkbox{
+    background-color: white;
+    border:1px solid gray;
+    padding:2px;
+    border-radius: 13px;
+    width: 1.2em;
+    height:1.2em;
+    box-sizing: border-box;
+}
+
+.styled_checkbox_box{
+    transition: all 300ms;
+    transform: scale(0);
+    background:#121761;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.styled_checkbox input:checked + .styled_checkbox_box {
+    transform: scale(1)
 }
